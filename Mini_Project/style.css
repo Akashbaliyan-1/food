@@ -1,0 +1,87 @@
+body{
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bold;
+}
+/* utility classes*/
+.img-responsive{
+    max-width: 100%;
+    height: 6cm;
+    width: 6cm;
+}
+.food_image{
+    background: url(food4.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.food_wrapper{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.food_wrapper h1{
+    font-size: 8mm;
+    text-align: center;
+    color: navy;
+}
+
+.food_wrapper p{
+    font-size: 5mm;
+}
+
+.food_wrapper span{
+    margin-left: 4rem;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.form_class .box{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3mm;
+    padding: 2mm;
+    border: none;
+    outline: none;
+}
+.form_class button{
+    width: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 3mm;
+    margin-top: 2mm;
+    padding: 2mm;
+}
+
+/* product section */
+.product{
+    width: 90%;
+    margin-top: 5mm;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_list{
+    float: left;
+    width: 32%;
+    margin-left: 3mm;
+}
+
+@media screen and (max-width: 600px) {
+    .product_list{
+        width: 100%;
+        float: none;
+    }
+    
+}
